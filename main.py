@@ -49,6 +49,7 @@ from keras.optimizers import *
 
 m = Sequential()
 m.add(Dense(10, input_dim=3, activation="tanh"))
+# add a hidden layer using the relu activation
 m.add(Dense(8, activation="tanh"))
 m.add(Dense(3, activation="softmax"))
 
